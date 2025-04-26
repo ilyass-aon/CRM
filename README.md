@@ -1,11 +1,13 @@
 # CRM Fondamental en Console
-Description
+Description  
+
 Ce projet est un CRM (Customer Relationship Management) basique fonctionnant en console.
 Il permet de gérer les données des clients (ajout, modification, suppression, recherche) ainsi que l’historique des interactions et des rappels de suivi.
 
 # Fonctionnalités
 
-. Ajouter un client (nom, prénom, téléphone, email)
+. Ajouter un client (nom, prénom, téléphone, email)  
+
 . Afficher tous les clients ou rechercher un client spécifique
 . Modifier les informations d’un client existant
 . Supprimer un client
