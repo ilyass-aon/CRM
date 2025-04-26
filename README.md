@@ -1,10 +1,10 @@
 # CRM Fondamental en Console
-Description  
+## Description  
 
 Ce projet est un CRM (Customer Relationship Management) basique fonctionnant en console.
 Il permet de gérer les données des clients (ajout, modification, suppression, recherche) ainsi que l’historique des interactions et des rappels de suivi.
 
-# Fonctionnalités
+## Fonctionnalités
 
 . Ajouter un client (nom, prénom, téléphone, email)  
 . Afficher tous les clients ou rechercher un client spécifique  
@@ -15,7 +15,7 @@ Il permet de gérer les données des clients (ajout, modification, suppression, 
 . Recherche avancée (par nom, dernière interaction, rappel à venir)  
 . Interface en ligne de commande intuitive et simple  
 
-# Technologies Utilisées
+## Technologies Utilisées
 
 Langage : Java 17
 IDE : IntelliJ IDEA
@@ -25,19 +25,19 @@ Librairies Java :
 . java.util.Scanner
 . java.time.LocalDate
 
-# Architecture :
+## Architecture :
 
 MVC (Model - View - Controller)  
 POO (Programmation Orientée Objet)  
 
-# Architecture du projet
+## Architecture du projet
 
 Model : Client, Interaction, Rappel  
 Controller : ClientController, InteractionController, RappelController  
 View : ConsoleView  
 Database : DatabaseManager (gestion des connexions et scripts SQL)  
 
-# Configurer la base de données :
+## Configurer la base de données :
 
 Le projet utilise une base SQLite.  
 Le fichier de base sera automatiquement créé lors du premier lancement.
